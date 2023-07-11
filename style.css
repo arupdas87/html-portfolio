@@ -1,0 +1,390 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bacasime Antique', serif;
+}
+body{
+    background-color: #eaeaea;
+}
+header{
+    background: linear-gradient(310deg,  rgb(42,191,234), rgb(13,21,83));
+    padding: 100px 0;
+}
+
+.headerContainer{
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;    
+    grid-gap: 5px;
+}
+.headersection{
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+}
+.h1h2div{
+    width: 100%;
+    color: #d4d7d9;
+}
+.headersection div h1{
+    font-size: 6rem;
+    line-height:80px;
+    width: 100%;  
+    
+}
+.headersection div h2{
+    font-size: 2.5rem;    
+    width: 100%;
+    letter-spacing: 2px;
+}
+.pro{
+    text-decoration: underline;
+}
+.headersection img{
+ width:80%;
+}
+.header-img-div{
+    justify-content: right;
+}
+/* main start */
+.main-conteaner{
+    width: 1200px;
+    margin: 0 auto;
+ 
+}
+/* intro start */
+.intro{
+    text-align: center;
+    padding: 120px 0;
+}
+.Protfolio-img{
+    border: 4px solid #babaf5;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin: 30px 0;
+    
+}
+.main-conteaner  h3{
+ font-size: 2.5rem;
+ color: #2a70ea;
+ margin-bottom: 50px;
+ font-weight: 400;
+ 
+}
+.intro p{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.devider{
+    width: 100%;
+    text-align: center;
+}
+.devider span{
+    display: inline-block;
+    height: 5px;
+    width:5px;
+    background-color: #8db2f3;
+    margin: 10px;
+    /* border-radius: 50%; */
+}
+/* intro end */
+/* my skill start */
+.mySkill{
+    width: 100%;
+    text-align: center;
+    padding: 100px 0;   
+    
+}
+.mySkill p{
+    font-size: 1.2rem;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.skill-contaent{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;  
+    border-bottom: 1px solid #2a70ea;
+    padding: 10px 0;
+    text-align: left;
+}
+
+.skill-Professional{
+width: 25%;
+padding: 5px 0;
+border-right: 1px solid #2a70ea;
+}
+.skill-Professional ul{
+    width: 100%;
+
+}
+.skill-Professional ul > li{
+    padding: 5px 10px;
+    list-style-type: square;
+    list-style-position: inside;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+.skill-Languages{
+    width:75%;
+    padding: 10px 0px;  
+    padding-left: 30px; 
+}
+.mySkill h4{
+    color: #2a70ea;
+    font-size: 1.3rem;
+   padding: 20px 0px;
+}
+.skill-Languages-subdiv{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 0;
+}
+.language-name{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.language-persent-number{
+    width: 10%;
+    text-align: left;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+.language-persent{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+}
+.language-persent-grey, .language-persent-blue{
+    display: block;
+    height: 8px;
+    position: absolute;
+    border-radius: 4px;
+    
+}
+.language-persent-grey{
+    background-color: rgb(151, 151, 152);
+    width: 100%;
+}
+.language-persent-blue{
+    background-color:#2a70ea;
+    font-size: 1.3rem;
+    
+}
+
+/* my skill end */
+/* get in touch start */
+.contactme{
+    padding: 100px 0;
+    text-align: center;
+}
+.contactme h4{
+    font-size: 1.2rem;
+    color: #2a70eaea;
+    padding-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.contactme p{
+    font-size: 1.2rem;
+    padding-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.contactme a{
+    text-decoration: none;
+    background-color: #2a70ea;
+    font-size: 1.5rem;
+    color: #eaeaea;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+/* get in touch end */
+/* myProtfolio start */
+.myProtfolio{
+    text-align: center;
+    padding: 100px 0;
+    width: 100%;
+}
+.myProtfolio-sub{
+    display: flex;
+    justify-content: space-between;
+}
+.myProtfolio-imgdiv{
+    width: 30%;
+}
+.myProtfolio-imgdiv img{
+    display: inline-block;
+    width: 100%;
+}
+/* myProtfolio end */
+/* main end */
+/* footer start */
+footer{
+    background-color: #5990ef;
+    padding: 20px 0;
+}
+.bottom-container{
+    text-align: center;
+    padding: 20px;
+}
+.footer-link{
+    padding: 0px 10px;
+    color: #0758e5;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-link:hover{
+    color: #fbfcfd;
+}
+.copyright{
+    color:  #fbfcfd;
+    padding: 20px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+/* footer end */
+@media (max-width:1200px) {
+    .headerContainer{
+        width: 90%;       
+}
+.intro{
+    padding: 50px 0px;
+}
+.mySkill{
+    padding: 50px 0px;
+}
+
+.intro p{
+    width: 100%;
+}
+.main-conteaner{
+    width: 90%;
+}
+.mySkill p{
+    width: 100%;
+}
+.skill-Professional{
+    border-right: none;
+}
+.skill-contaent{
+    border-bottom: none;
+}
+.skill-Languages{
+    padding: 0;
+}
+.skill-Professional, .skill-Languages{
+    width: 100%;
+}
+.skill-Professional ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skill-Professional ul li{
+   display: block;
+    width: 30%;
+ align-items: center;
+ padding: 20px;
+}
+
+}
+@media (max-width:992px) {
+    .headerContainer{
+        width: 90%;  
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;   
+}
+.headersection{
+    width: 100%;
+}
+.headersection img{
+    width:60%;
+   }
+   .header-img-div{
+    justify-content: center;
+}
+.myProtfolio-sub{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.myProtfolio-imgdiv{
+    width: 100%;
+    padding: 20px 0;
+}
+.myProtfolio-imgdiv img{
+    display: inline-block;
+    width: 100%;
+}
+}
+@media (max-width:768px){     
+       .headersection div h1{
+        font-size: 5rem;
+        line-height:80px;       
+    }
+    .headersection div h2{
+        font-size: 2rem;      
+    }
+    header{
+        padding: 60px 0;
+    }
+    .skill-Professional ul li{  
+    width: 50%;  
+ }
+}
+@media (max-width:565px){    
+    .headersection div h1{
+     font-size: 3rem;
+     line-height:50px;       
+ }
+ .headersection div h2{
+     font-size: 1.5rem;      
+ }
+ .headersection img{
+    width:70%;
+   }
+   .skill-Professional ul li{  
+    width: 100%;  
+ }
+ .language-name{
+    width: 100%;
+    text-align: left;
+    padding: 5px 0;
+}
+
+.language-persent-number{
+    width: 100%;
+    text-align: left;
+    padding: 0px;
+    display: flex;
+    justify-content: left;
+}
+.language-persent{
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    order: 1;
+}
+}
