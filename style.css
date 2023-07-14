@@ -37,16 +37,46 @@ header{
     width: 100%;  
     
 }
+@keyframes proAnimation{
+    0%{
+        width: 15%;
+        transition: all 0.1s ease-in-out;
+    }
+    50%{
+        width: 100%;
+        transition: all 0.1s ease-in-out;
+       }    
+    100%{
+        width: 15%;
+        transition: all 0.1s ease-in-out;
+       }      
+}
 .headersection div h2{
+    white-space: nowrap;
     font-size: 2.5rem;    
     width: 100%;
     letter-spacing: 2px;
+    overflow: hidden;
+    animation: proAnimation 3.5s infinite;
 }
 .pro{
     text-decoration: underline;
 }
+@keyframes example{
+    0%{
+        transform: translateY(0px);
+        transition: all 0.1s ease-in-out;
+    }
+    50%{transform: translateY(5px);
+        transition: all 0.1s ease-in-out;
+       }    
+    100%{transform: translateY(0px);
+        transition: all 0.1s ease-in-out;
+       }
+}
 .headersection img{
  width:80%;
+ animation: example 2s infinite;
 }
 .header-img-div{
     justify-content: right;
