@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arup Das | JavaScript Projects.</title>
+ 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Montserrat:wght@200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    header{
+        width: 100%;
+        background: linear-gradient(310deg,  rgb(42,191,234), rgb(13,21,83));
+    }
+    .headerContainer{
+        width: 80%;
+        margin: 0 auto;
+    }
+    #nav-div{
+        padding: 20px;
+        display: flex;
+        justify-content: right;       
+    }
+    #nav-div a{
+        margin: 10px;
+        font-size: 1rem;
+        color: rgb(176, 222, 222);
+        text-decoration: none;
+        letter-spacing: 2px;
+    }
+    #nav-div a:hover{
+        color: rgb(9, 104, 104);
+    }
+    .h1h2div{
+        padding: 30px;
+        padding-bottom: 100px;    
+        color: rgb(176, 222, 222);
+    }
+    .h1h2div h1{
+        font-size: 6rem;
+    }
+    .h1h2div h2{
+        font-size: 4rem;
+    }
+    .h1h2div p{
+        font-size: 1.3rem;
+        padding-top: 5px;
+    }
+    .main-conteaner{
+        width: 80%;
+        margin: 50px auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    .javaProjectmenu{
+        
+        width:48%; 
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+           
+        
+    }
+    .javaProjectmenu a{
+        position: relative;
+        border-radius: 20px;
+        overflow: hidden;
+        min-height: 400px;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        
+    }
+    .javaProjectmenu a img{      
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+    .javaProjectmenuTitel{
+        position: absolute;
+        height: 0%;
+        overflow: hidden;
+        width: 100%;
+        font-size: 5rem;
+        display: flex;
+        justify-content: left;
+        align-items: center;        
+        color: rgb(224, 213, 209);
+        background:  linear-gradient(310deg,  rgba(42, 192, 234, 0.808), rgb(13, 21, 83));     
+        transition: all 0.5s ease;
+    }
+    .javaProjectmenu a:hover  .javaProjectmenuTitel{
+        height: 100%;
+        padding: 20px 30px;
+    }
+    footer{
+    background-color: #5990ef;
+    padding: 20px 0;
+    }
+    .bottom-container{
+        text-align: center;
+    padding: 20px;
+    }
+    .footer-link{
+        padding: 0px 10px;
+        color: #0758e5;
+        text-decoration: none;
+        transition: all 0.2s ease;
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+    }   
+    .footer-link:hover{
+        color: #fbfcfd;
+    }
+    .copyright{
+        color:  #fbfcfd;
+        padding: 20px 0;
+        font-family: 'Montserrat', sans-serif;
+    }
+    @media (max-width:1024px) {
+        .main-conteaner{
+            margin-top: 100px;
+            padding: 0;
+        }
+        .headerContainer{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .javaProjectmenu{        
+        width:100%; 
+        margin: 30px;      
+        
+    }
+    .javaProjectmenuTitel{
+        font-size: 3rem;
+        height: 100%;
+        padding-left: 20px;
+    }
+  
+    }
+    @media (max-width:768px) {
+        .main-conteaner{
+            width: 100%;
+            margin-top: 50px;
+            padding: 0;
+        }
+        .javaProjectmenu a{      
+       min-height: 200px;
+    }
+        .javaProjectmenuTitel{
+        font-size: 2rem;
+        height: 100%;
+        padding-left: 20px;
+    }
+        #nav-div{
+        padding: 10px;
+        justify-content: left;
+    }
+        .h1h2div{
+        padding: 15px;
+        padding-bottom: 40px;  
+          
+        color: rgb(176, 222, 222);
+    }
+        .h1h2div h1{
+        font-size: 3rem;
+    }
+    .h1h2div h2{
+        font-size: 2rem;
+    }
+    }
+</style>
+
+</head>
+<body>    
+    <header>        
+       <div class="headerContainer">
+            <div id="nav-div">
+                <a href="../index.html">Home</a>
+               
+            </div>
+      
+            <div class="h1h2div">
+                <h1>JavaScript </h1>  
+                <h2> Projects.</h2>  
+                <p>Arup Das.</p>           
+            </div>     
+       </div>
+    </header>
+    <!-- main div start -->
+    <main class="main-conteaner">
+        <div class="javaProjectmenu">
+            <a href="./leapyear.html">
+               <img src="./imgjs/leapyear.jpg" alt="twentynine feb date"/>
+               <div class="javaProjectmenuTitel">
+                    Leap Year <br/> Check
+               </div>
+            </a>
+        </div>
+        <div class="javaProjectmenu">
+            <a href="./bmicalculator.html">
+                <img src="./imgjs/bmi.jpg" alt="leapyear"/>
+                <div class="javaProjectmenuTitel">
+                   BMI <br/>Calculator
+                </div>
+            </a>
+        </div>
+    </main>
+    <!-- main div end -->
+    <footer>
+        <div class="bottom-container">
+            <a class="footer-link" href="https://www.linkedin.com/in/arup-das-3601b925a/">LinkedIn</a>
+            <a class="footer-link" href="#">Twitter</a>
+            <a class="footer-link" href="#">Website</a>
+            <p class="copyright">© Arup Das @2023</p>
+          </div>
+    </footer>
+</body>
+</html>

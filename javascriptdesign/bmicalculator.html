@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="./stylebmilepyear.css" />
+</head>
+<body>
+    <header>
+        <div id="headerMenu">
+            <a href="../index.html">Home</a>
+            <a href="./indexjs.html">JavaScript</a>   
+        </div>
+        <h1>BMI Calculator </h1>
+        
+        <hr />
+    </header>   
+   
+    <main>
+        <section class="sectionItem">
+            <!-- <div class="bmiformdiv">
+                <form action="#">
+                    <label for="bmiWeight"> Enter Weight (kg.) : </label>
+                    <input type="text" id="bmiWeight"  name="bmiWeight" placeholder="1 Only Number" />
+                    <label for="bmiHeight"> Ehter Height (mtr.) : </label>
+                    <input type="text" id="bmiHeight" name="bmiHeight" placeholder="1.8 Only Number" />
+                    <button type="button" value="button" id="bmiButton">Check</button>
+                </form>                
+            </div>            -->
+            <div class="bmiformdiv">
+                <form action="#">
+                    <div class="bmiWeightAndHeightinputform">
+                        <label for="bmiWeight"> Enter Weight : </label>
+                        <select name="bmiWeightSel" id="bmiWeightSel">
+                        <option value="kg">Kilograms</option>
+                        <option value="pound">Pounds</option>
+                        </select>
+                        <input type="text" id="bmiWeight"  name="bmiWeight" placeholder="1 Only Number" />
+                    </div>
+
+                    <div  class="bmiWeightAndHeightinputform">
+                        <label for="bmiHeight"> Ehter Height : </label>
+                        <select name="bmiheightSel" id="bmiheightSel">
+                            <option value="feets">Feets</option>
+                            <option value="metres">Metres</option>
+                        </select>
+                        <input type="text" id="bmiHeight" name="bmiHeight" placeholder="1.8 Only Number" />
+                    </div>
+
+                    <button type="button" value="button" id="bmiButton">Check</button>
+                </form>                
+            </div>
+        </section>
+        <Section class="sectionItem">
+            
+            <div id="shoBmiresultMaindiv">  
+                            
+                <div class="shoBmiresult">Your Weight : <span id="showWeight">000 </span> <span id="showWeightunit">kg.</span></div> 
+                <div class="shoBmiresult">Wour Height : <span id="showHeight">0.0 </span> <span id="showHeightunit">mtr.</span></div>  
+                
+                <hr />             
+                <div class="shoBmiresult" id="shoBmiresultid"> Welcome BMI Checker Site </div>
+                                
+            </div>
+            <p id="noteParagrap">Note : It is a appoximate value, Discuss with your Doctor.</p>  
+            <ul>
+                <li>BMI (&#60;18.5) = Under Weight. </li>
+                <li>BMI (&#62;=18.5, &#60;=24.9) = Normal Weight.</li>
+                <li>BMI (&#62;24.9) = Over Weight.</li>
+            </ul>
+        </Section>
+        <footer>
+            <div class="bottom-container">
+                <a class="footer-link" href="https://www.linkedin.com/in/arup-das-3601b925a/">LinkedIn</a>
+                <a class="footer-link" href="#">Twitter</a>
+                <a class="footer-link" href="#">Website</a>
+                <p class="copyright">© Arup Das @2023</p>
+              </div>
+        </footer>
+       <script src="./bmi.js"></script>
+      
+    </main>
+</body>
+</html>

@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+header{
+    width: 100%;
+    background-color: rgb(106, 134, 238);
+    text-align: center;
+}
+#headerMenu{
+   padding: 10px 40px;
+   display: flex;
+   justify-content: left;
+}
+#headerMenu a{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(220, 231, 240);
+    font-size: 1.1rem;
+}
+#headerMenu a:hover{
+    color: rgb(128, 190, 240);
+}
+header > h1{
+    padding: 30px 0;
+    font-size: 3rem;
+    text-align: center;
+    color:whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.sectionItem{
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.formDiv
+.formDiv, form{
+    width: 100%;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+form label,
+form input{
+    padding: 5px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+   color: rgb(143, 143, 144);
+}
+form input{
+    width: 20%;
+    border: none;
+    border: 2px solid rgb(106, 134, 238);
+}
+form button{
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-left: 10px;
+    background-color: rgb(106, 134, 238);
+    color: whitesmoke;
+    cursor: pointer;
+}
+#showLeatresult{
+    min-height: 300px;
+    width: 100%;
+    border: 4px solid rgb(106, 134, 238);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: rgb(143, 143, 144);
+    text-align: center;
+}
+.sectionItem ul {
+    width: 100%;
+    padding: 10px 50px;
+    
+}
+.sectionItem ul >li{
+    width: 100%;
+     color: rgb(249, 37, 104);
+     padding: 5px 0;
+     
+}
+input [placeholder]{
+    color: rgb(143, 143, 144);  
+}
+/* bmi page style start */
+.bmiformdiv{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.bmiformdiv form{
+    display: block;
+    text-align: center;
+}
+.bmiWeightAndHeightinputform{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.bmiWeightAndHeightinputform label,
+.bmiWeightAndHeightinputform select,
+.bmiWeightAndHeightinputform input{
+    width: 15%;
+    margin: 0 10px;
+    padding: 10px 5px;
+    font-size: 1rem;
+}
+.bmiWeightAndHeightinputform label{
+    text-align: right;
+}
+.bmiWeightAndHeightinputform select{
+    width: 10%;
+    color: rgb(143, 143, 144);
+    border-radius: 5px;
+    border: 2px solid rgb(106, 134, 238);
+}
+#bmiButton{
+    margin: 20px auto;
+    width: 150px;
+    padding: 10px 0px;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+}
+#noteParagrap{
+    padding: 5px 20px;
+    font-size: 14px;
+    color: rgb(249, 37, 104);
+}
+@media (max-width: 1024px) {
+.bmiWeightAndHeightinputform label,
+.bmiWeightAndHeightinputform select,
+.bmiWeightAndHeightinputform input{
+ width: 60%;
+ margin: 10px 0;
+}
+.bmiWeightAndHeightinputform label{
+    text-align: left;
+    padding-left: 0;
+}
+    .bmiformdiv label{
+        width: 60%;
+        margin: 10px 0;
+    
+    }
+    .bmiformdiv input{
+        width: 60%;
+        margin-bottom: 10px;
+    }
+    .bmiformdiv button{
+        width: 60%;
+        margin: 20px 0;
+    }
+}
+#shoBmiresultMaindiv{
+    width: 100%;
+    border: 5px solid rgb(106, 134, 238);
+    border-radius: 20px; 
+    
+}
+.shoBmiresult{
+    padding: 10px 10px;    
+    color: rgb(106, 134, 238);;
+}
+#shoBmiresultid{
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: rgb(143, 143, 144);   
+    text-align: center;
+}
+footer{
+    background-color: #5990ef;
+    padding: 20px 0;
+    }
+    .bottom-container{
+        text-align: center;
+    padding: 20px;
+    }
+    .footer-link{
+        padding: 0px 10px;
+        color: #0758e5;
+        text-decoration: none;
+        transition: all 0.2s ease;
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+    }   
+    .footer-link:hover{
+        color: #fbfcfd;
+    }
+    .copyright{
+        color:  #fbfcfd;
+        padding: 20px 0;
+        font-family: 'Montserrat', sans-serif;
+    }
+/* bmi page style end */
+@media (max-width:568px) {
+    .bmiWeightAndHeightinputform label,
+.bmiWeightAndHeightinputform select,
+.bmiWeightAndHeightinputform input{
+ width: 100%;
+ margin: 10px 0;
+}
+#bmiButton{
+
+    width: 100%;
+}
+    header > h1{
+     
+        font-size: 2rem;
+    }
+  .sectionItem ul {
+  
+    padding: 10px 20px;
+    
+}
+form label,
+form input{
+    width: 80%;
+    padding: 5px 0;
+ 
+   color: rgb(143, 143, 144);
+   margin: 2px 0;
+
+}
+form input{
+    margin: 10px 0;
+   padding-left: 5px;
+
+}
+form button{
+    width: 80%;
+    border-radius: 5px;
+    margin:10px 0;
+}
+#showLeatresult{
+    font-size: 2rem;
+}
+.bmiformdiv label{
+    width: 100%;
+    margin: 10px 0;
+
+}
+.bmiformdiv input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.bmiformdiv button{
+    width: 100%;
+    margin: 20px 0;
+}
+#shoBmiresultid{
+   
+    font-size: 2rem;
+ 
+}
+}
