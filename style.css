@@ -1,5 +1,3 @@
-
-
 *{
     padding: 0;
     margin: 0;
@@ -8,6 +6,26 @@
 }
 body{
     background-color: #eaeaea;
+}
+#nav-div{
+    color: #2a6b97;
+    position: absolute;
+    top:0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: right;
+    z-index: 1;
+}
+#nav-div > a{
+    color: rgb(130, 215, 238);
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.2s ease;
+}
+#nav-div > a:hover{
+    color: rgb(226, 241, 245);
 }
 header{
     background: linear-gradient(310deg,  rgb(42,191,234), rgb(13,21,83));
@@ -27,15 +45,17 @@ header{
     align-items: center;
     justify-content: center;
 }
+
 .h1h2div{
     width: 100%;
     color: #d4d7d9;
+    
 }
 .headersection div h1{
     font-size: 6rem;
     line-height:80px;
     width: 100%;  
-    
+
 }
 @keyframes proAnimation{
     0%{
@@ -59,8 +79,10 @@ header{
     overflow: hidden;
     animation: proAnimation 3.5s infinite;
 }
+
 .pro{
     text-decoration: underline;
+    
 }
 @keyframes example{
     0%{
@@ -78,9 +100,11 @@ header{
  width:80%;
  animation: example 2s infinite;
 }
+
 .header-img-div{
     justify-content: right;
 }
+
 /* main start */
 .main-conteaner{
     width: 1200px;
@@ -245,6 +269,11 @@ border-right: 1px solid #2a70ea;
     padding: 10px 20px;
     border-radius: 5px;
     font-family: 'Montserrat', sans-serif;
+    transition: all 0.1s ease-in-out;
+}
+.contactme a:hover{
+    background-color: #2a70eab5;
+    color: #0559eab5;
 }
 /* get in touch end */
 /* myProtfolio start */
@@ -259,10 +288,14 @@ border-right: 1px solid #2a70ea;
 }
 .myProtfolio-imgdiv{
     width: 30%;
+    transition: all 0.2s ease-in-out;
 }
 .myProtfolio-imgdiv img{
     display: inline-block;
     width: 100%;
+}
+.myProtfolio-imgdiv:hover{
+   transform: translateY(-5px);
 }
 /* myProtfolio end */
 /* main end */
@@ -366,7 +399,13 @@ footer{
     width: 100%;
 }
 }
-@media (max-width:768px){     
+@media (max-width:768px){ 
+    #nav-div{
+        padding: 20px 5%;
+    } 
+    #nav-div > a{     
+        font-size: 0.8rem;       
+    }   
        .headersection div h1{
         font-size: 5rem;
         line-height:80px;       
